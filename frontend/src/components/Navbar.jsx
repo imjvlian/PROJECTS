@@ -10,7 +10,7 @@ const Navbar = () => {
     const [visible, setVisible] = useState(false);
 
   return (
-    <div className="flex items-center justify-between py-5 font-medium">
+    <div className="fixed top-0 right-0 left-0 z-50 bg-gray-200 dark:bg-gray-800 flex items-center justify-between px-5 py-5 font-medium shadow-md">
       <Link to='/'><img src={assets.logo} className="w-36 cursor-pointer" alt="" /></Link>
       
 
