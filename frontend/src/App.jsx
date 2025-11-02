@@ -10,11 +10,11 @@ import PlaceOrders from "./pages/PlaceOrders";
 import Product from "./pages/Product";
 import Cart from "./pages/Cart";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
     <div className="px-4 sm:px-[5vw] md:px-[7vw] lg:px-[9vw] bg-gray-200 dark:bg-gray-800 text-gray-500 dark:text-white shadow">
-
       <Navbar />
 
       <Routes>
@@ -28,6 +28,7 @@ const App = () => {
         <Route path="/product" element={<Product />} />
         <Route path="/cart" element={<Cart />} />
       </Routes>
+      <Footer />
     </div>
   );
 };
