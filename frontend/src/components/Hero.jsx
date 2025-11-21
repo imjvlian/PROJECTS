@@ -16,7 +16,7 @@ const Hero = () => {
             </div>
             <h1 className="prata-regular text-3xl sm:py-3 lg:text-5xl leading-relaxed dark:text-[#E0E0E0FF]">
               Latest Arrivals
-            </h1>
+            </h1> 
             <div className="flex items-center gap-2">
               <p className="font-semibold text-sm md:text-base dark:text-[#E0E0E0FF]">
                 SHOP NOW
@@ -26,7 +26,7 @@ const Hero = () => {
           </div>
         </div>
         {/* Hero Right */}
-        <img className="w-full sm:w-1/2" src={assets.hero_img} alt="" />
+        <img className="w-full sm:w-1/2" src={assets.hero_img} alt="" />  
       </div>
     </div>
   );
